@@ -1,0 +1,3 @@
+[console_scripts]
+seed = seed.run:main
+
