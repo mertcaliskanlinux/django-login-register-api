@@ -11,3 +11,7 @@ class RegisterSerializer(serializers.Serializer):
     password = serializers.CharField()
     name = serializers.CharField()
     
+    
+class RefreshSerializer(serializers.Serializer):
+    refresh = serializers.CharField()
+    
